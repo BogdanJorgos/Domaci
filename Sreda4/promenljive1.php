@@ -9,8 +9,22 @@
 <body>
     <div>
         <?php
+
             $number1 = 200;
             $number2 = 80;
+
+            $zbir = $number1 + $number2;
+            echo $zbir."<br />";
+
+            $proizvod = $number1 * $number2;
+            echo $proizvod."<br />";
+
+            $razlika = $number1 - $number2;
+            echo $razlika."<br />";
+
+            $kolicnik = $number1 / $number2;
+            echo $kolicnik."<br />";
+
         ?>
     </div>
 </body>
