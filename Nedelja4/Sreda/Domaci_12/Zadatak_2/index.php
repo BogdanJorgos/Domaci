@@ -15,6 +15,6 @@
         echo '<span style="color:blue;">$boja2</span>';
     ?>
 
-    <p>Kliknite <a href="../zadatak3.index.php" target="_blank">ovde</a> da vidite 3. zadatak </p>
+    <p>Kliknite <a href="../Zadatak_3/index.php" target="_blank">ovde</a> da vidite 3. zadatak </p>
 </body>
 </html>
