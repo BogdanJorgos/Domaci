@@ -30,7 +30,6 @@
             $klasa = "red";
             echo "<p class=\"$klasa\">$b</p>";
         }
-      
     ?>
     
 </body>
