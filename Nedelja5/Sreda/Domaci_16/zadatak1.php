@@ -7,6 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form method="GET" action="novilink.php">
+        <input type="number" placeholder="unesite broj" name="broj1">
+        <input type="number" placeholder="unesite broj" name="broj2">
+        <input type="number" placeholder="unesite broj" name="broj3">
+        <input type="number" placeholder="unesite broj" name="broj4">
+        <input type="submit" value="posalji">
+    </form>
 </body>
 </html>
