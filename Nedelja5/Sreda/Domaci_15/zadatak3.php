@@ -18,19 +18,16 @@
     <?php
         $name1 = "Pera";
         $name2 = "Jovan";
-        $ime1_br = 4;
-        $ime2_br = 5;
+        $ime1_br = strlen($name1);
+        $ime2_br = strlen($name2);
 
         function duze_ime() {
-            global $name1, $name2, $ime1_br, $ime2_br, $cl1;
+            global $name1, $name2, $ime1_br, $ime2_br;
 
             if ( $ime1_br > $ime2_br){
-                $cl1 = "green";
                 return $name1;
             } else {
-                $cl1 = "red";
                 return $name2;
-
             }
         }
 
@@ -38,19 +35,17 @@
             global $name1, $name2, $ime1_br, $ime2_br, $cl1;
 
             if ( $ime1_br < $ime2_br){
-                $cl1 = "green";
                 return $name1;
             } else {
-                $cl1 = "red";
                 return $name2;
             }
         }
 
         $d = duze_ime();
-        echo "<p class=\"$cl1\">$d</p>";
+        echo "<p class=\"red\">$d</p>";
 
         $k = krace_ime();
-        echo "<p class=\"$cl1\">$k</p>";
+        echo "<p class=\"green\">$k</p>";
             
     ?>   
 </body>
