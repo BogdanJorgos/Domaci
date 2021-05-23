@@ -7,13 +7,14 @@
     <title>Document</title>
 </head>
 <body>
+
     <?php
         $n = mt_rand(1,10);
         $x = mt_rand(1,10);
         echo "n=$n, x=$x"; 
 
         function svasta() {
-            global $n, $x;
+            global $n, $x; 
             for($i=1; $i<=$n; $i++){
                 echo "<span>Ovo je span $i </span>";
             }
