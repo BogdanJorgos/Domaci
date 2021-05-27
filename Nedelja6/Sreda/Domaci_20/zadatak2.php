@@ -15,7 +15,7 @@
             }
             echo "</div>";
         }
-        echo neka(7);
+        neka(7);
     ?>
 </body>
 </html>
