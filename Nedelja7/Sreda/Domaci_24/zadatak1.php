@@ -18,8 +18,6 @@
         }
         $c = nule($x);
         var_dump($c);
-
-
     ?>
 </body>
 </html>
