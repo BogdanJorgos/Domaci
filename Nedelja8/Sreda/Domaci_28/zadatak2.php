@@ -8,25 +8,7 @@
 </head>
 <body>
 <?php 
-        class Krevet{
-            private $cena;
-            public $duzina, $sirina, $materijal;
-
-            public function __construct($dduzina, $ssirina, $mmaterijal, $ccena){
-                $this->duzina = $dduzina;
-                $this->sirina = $ssirina;
-                $this->materijal = $mmaterijal;
-                $this->cena = $ccena;
-            }
-
-            public function daj_cenu(){
-                return $this->cena;
-            }
-
-            public function __toString(){
-                return "Krevet je duzine $this->duzina i sirine $this->sirina i napravljen od $this->materijal po ceni ".$this->daj_cenu();
-            }
-        }
+        include "../Domaci_27/zadatak1.php";    
 
         class Baldahin extends Krevet {
             public $visina, $cenaBaldahina;
@@ -38,7 +20,7 @@
             }
 
             public function __toString(){
-                return "Cena kreveta bez baldahina je ".$this->daj_cenu()." a sa baldahinom je ".$this->cenaBaldahina + $this->daj_cenu();
+                return "Cena kreveta bez baldahina je ".$this->citanje_cene()." a sa baldahinom je ".$this->cenaBaldahina + $this->citanje_cene();
             }
         }
         $s1 = new Baldahin(120, 70, 'stof', 20000, 140, 40000);
