@@ -22,10 +22,10 @@
             }
 
             public function __toString(){
-                return parent::__toString()." ,a Baldahin je visine $this->visina po ceni $this->cenaBaldahina";
+                return " ,a Baldahin je visine $this->visina po ceni $this->cenaBaldahina";
             }
         }
-        $s1 = new Baldahin(120, 70, 'stof', 20000, 140, 40000);
+        $s1 = new Baldahin(120, 70, 'stof', 15000, 140, 40000);
         echo $s1;
     ?>
 </body>

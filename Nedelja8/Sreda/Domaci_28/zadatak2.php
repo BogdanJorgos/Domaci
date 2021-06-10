@@ -20,10 +20,10 @@
             }
 
             public function __toString(){
-                return "Cena kreveta bez baldahina je ".$this->citanje_cene()." a sa baldahinom je ".$this->cenaBaldahina + $this->citanje_cene();
+                return " a sa baldahinom je ".$this->cenaBaldahina + $this->citanje_cene();
             }
         }
-        $s1 = new Baldahin(120, 70, 'stof', 20000, 140, 40000);
+        $s1 = new Baldahin(120, 70, 'stof', 15000, 140, 40000);
         echo $s1;
         
     ?>
